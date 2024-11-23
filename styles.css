@@ -4,22 +4,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e0e0;
+    background-color: #e0e0e0; /* Change this to your desired background color */
     margin: 0;
 }
 
 .container {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ffffff; /* Change this to your desired container background color */
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 button {
@@ -28,13 +23,13 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    background-color: #6200ea;
+    background-color: #6200ea; /* Change this to your desired button background color */
     color: white;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #3700b3;
+    background-color: #3700b3; /* Change this to your desired hover background color */
     transform: scale(1.05);
 }
 
